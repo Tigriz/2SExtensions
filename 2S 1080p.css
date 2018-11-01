@@ -1,0 +1,265 @@
+/*2S 1080p
+Par Lisa
+v. 2.0.0
+
+2S 1080p adapte le site 2sucres à une hauteur de 1080p, et fixe certains problèmes mineurs pour rendre 2S plus pratique à la navigation.
+Topic du stylish :
+https://2sucres.org/forums/1-2797-1-0
+
+N'hésitez pas à proposer des suggestions
+*/
+
+.ms-footer > div:nth-child(1) > p:before {
+    content: "2S 1080p par Lisa // ";
+}
+
+
+/* Ergonomie*/
+
+    /* Header */
+nav.navbar.yamm.ms-navbar.ms-navbar-primary.navbar-static-top{
+	margin-bottom: 0px !important;
+}
+
+#forum-container{
+    margin-top : 10px !important;
+    padding-top: 0 !important;
+}
+
+	/* Hauteur header */
+.ms-header {
+    height: 50px;
+    min-height: 50px;
+}
+
+	/* Logo 2Sucres */
+.ms-title > a:nth-child(1) > img:nth-child(1) {
+    padding-left: 250px !important;
+    padding-top: 55px !important;
+    background: url(https://image.noelshack.com/fichiers/2017/47/1/1511211289-chancla.png) no-repeat !important;
+    height: 0px;
+    margin: 0px;
+}
+
+	/* Connexion et MP */
+.ms-header .header-right {
+    margin-top: 0px;
+}
+
+	/* Avatar */
+div.pull-right:nth-child(2) {
+    margin-top: 0px !important;
+}
+
+div.pull-right:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) , div.pull-right:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1), div.pull-right:nth-child(2) > div:nth-child(1) > div:nth-child(1), div.pull-right:nth-child(2) > div:nth-child(1) {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+/* Container */
+	/* Marge nom de topic */
+h1.col-xs-12 {
+    padding-top: 5px;
+}
+
+	/* Marge liste topics */
+.list-topics {
+    margin-bottom: 7px;
+}
+
+	/* Marge boutons de page et d'actualisation */
+ul.forum-pagi:nth-child(2) {
+    padding-bottom: 7px;
+}
+
+	/* Marges pagination */
+div.mb-1:nth-child(5) > div:nth-child(1) {
+    margin-top: 3px;
+    margin-bottom: -7px;
+}
+
+div.mt-1:nth-child(3) {
+    margin-top: 2px !important;
+    margin-bottom: 4px;
+    padding-top: 0px;
+}
+
+#message-container > div:nth-child(1) {
+    margin-top: -16px;
+}
+
+/* Colonne de droite */
+
+	/* Marges */
+.topic-message {
+    margin: -6px;
+    padding-bottom: 3px;
+}
+
+.message-footer {
+    line-height: 18px;
+}
+
+#forum-right-col {
+    margin-top: -10px;
+}
+
+	/* Interlignes */
+.md-no-style.md-button {
+    line-height: 15px;
+}
+
+/* Risibank */
+
+	/* Taille minimale sticker 3 lignes */
+.message-sticker {
+    height: 43px;
+    min-height: 43px;
+}
+
+	/* Au survol */
+.message-sticker:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+	/* Padding */
+.risitab-container > div:nth-child(1) > div {
+    padding: 0px;
+}
+
+/* Minor fixes */
+    /* TH */
+.list-topics > thead > tr > th {
+    padding: 8px !important;
+}
+
+	/* Navigation pages */
+div.pl-1:nth-child(3) > nav:nth-child(1),
+div.pl-1:nth-child(5) > nav:nth-child(1) {
+    text-align: right !important;
+    margin-right: 300px;
+}
+
+/* Esthétique */
+
+    /* Signatures */
+.message-signature {
+    word-break: break-all;
+}
+
+	/* Taille police navbar */
+.navbar-nav li * {
+    font-size: 17px !important;
+}
+
+	/* Ligne pointillée */
+.message-header {
+    border-bottom: 1px dotted #b3b9a7;
+}
+
+	/* Icône OP */
+.zmdi-star-outline:before {
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    font-size: 17px;
+    content: "✏️";
+}
+    /* Badge */
+.message-username a:first-child img{
+    height : 30px;
+    width : 30px;
+    margin : 0;
+    position : relative;
+    top : -2px;
+}
+
+	/* Textarea resize */
+textarea {
+    resize: vertical !important;
+}
+
+	/* Colonne de droite */
+#forum-right-col md-list-item{
+    min-height : 36px;
+    height : 36px;
+}
+
+md-list-item div.md-button.md-no-style {
+    padding-right: 0 !important;
+}
+
+div.col-lg-4.col-md-3.col-xs-12.no-pr md-list md-list-item:nth-child(2n+1) {
+    background-color: rgb(40, 46, 53);
+}
+
+div.md-secondary-container button:hover {
+    background-color: #a55 !important;
+}
+
+.md-secondary-container  button{
+    padding : 0px !important;
+    height : 30px !important;
+    min-height : 30px !important;
+    width : 30px !important;
+    min-width : 30px !important;
+    margin-right : 2px !important;
+    background : rgb(170, 85, 85);
+    position : absolute;
+    right : 0px;
+    opacity : 0;
+    transition : .2s;
+}
+
+md-list md-list-item._md-button-wrap:hover .md-secondary-container  button, md-list md-list-item._md-button-wrap .md-secondary-container:hover  button *{
+    color : red !important;
+    opacity : 0.8;
+    transition : .2s;
+}
+
+div.col-lg-4.col-md-3.col-xs-12.no-pr md-list md-list-item:nth-child(2n+1) {
+    background-color: rgb(40, 46, 53);
+}
+
+/* Footer */
+.ms-footer > div > * {
+    margin: 0px;
+    color: #bdbdbd;
+}
+
+/* Bloc code */
+.message-content pre{
+    background : rgb(34, 39, 47);
+    color : #eee;
+}
+
+/* Restauration des tableaux dans les topics */
+.message-content > div > table {
+    display: block;
+    background : rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
+.message-content > div > table > thead > tr > th {
+    width: 100%;
+}
+
+.message-content > div > table > thead > tr > th {
+    padding-left: 3px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.2)
+}
+
+.message-content > div > table > tbody > tr > td {
+    padding-left: 3px;
+}
+.message-content > div > table > tbody > tr:nth-child(2n) > td {
+    background: rgba(255,255,255,0.05)
+}
+
+/* Texte caché indicateur */
+.message-content a[href*="​"]:before, .message-content a[href=""]:before {
+  content: "Texte caché!";
+}
