@@ -1,6 +1,6 @@
 # 2S Extensions
 
-Userscripts, CSS... repo for 2Sucres.org
+Userscripts, CSS... repo for 2S
 
 ## 2S 1080p
 
@@ -45,7 +45,7 @@ Add interface in /message/ to navigate between messages with IDs.
 Add interface in Bacteria topic to play Bacteria easily.
 
 ## Message Manager
-Message Manager est un script utilitaire pour vous faciliter les tâches que 2Sucres ne peut pas faire :
+Message Manager est un script utilitaire pour vous faciliter les tâches que 2S ne peut pas faire :
 - ✔️ compteur de messages d'un membre
 - ✔️ consulter tous vos messages
 - ✔️ recherche de message par auteur, contenu
