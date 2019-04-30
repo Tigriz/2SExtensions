@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Message Manager
+// @name         2SW Message Manager
 // @namespace    http://tampermonkey.net/
 // @version      0.3.1
 // @description  Des opérations sur vos messages
