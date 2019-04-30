@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Stream Viewer
+// @name         2SW Stream Viewer
 // @namespace    http://tampermonkey.net/
 // @version      0.0.1
-// @description  Regarder un stream sur 2S
+// @description  Basic window
 // @author       Lisa
 // @match        https://2sucres.org/*
 // @grant        none
